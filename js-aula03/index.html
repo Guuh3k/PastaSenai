@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora com inputs</title>
+    <script src="./script.js">  </script>
+</head>
+
+<body>
+    <h1> Digite os Numeros nos Inputs Para fazer um Calculo Com Eles </h1>
+    <form >
+        <div>
+            <label for="input_numero01">numero 01</label>
+            <input id="input_numero01" type="number">
+        </div>
+        <div>
+            <label for="input_numero02">numero 02</label>
+            <input id="input_numero02" type="number">
+        </div>
+        <div>
+            <label for="input_resultado">resultado</label>
+            <input id="input_resultado" type="number" disabled>
+        </div>
+        <button type="button" onclick="somarNumeros()">+ somar numeros</button>
+        <button type="button" onclick="subtracaoNumeros()">- subtrair numeros</button>
+    </form>
+</body>
+</html>
